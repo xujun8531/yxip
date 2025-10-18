@@ -1,0 +1,28 @@
+# General
+.DS_Store
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.env.*
+.pytest_cache/
+.mypy_cache/
+
+# Node/JS
+node_modules/
+dist/
+build/
+.cache/
+coverage/
+
+# Cloudflare Wrangler
+.wrangler/
+
+# Editors
+.idea/
+.vscode/
